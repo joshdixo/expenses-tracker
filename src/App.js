@@ -25,9 +25,21 @@ const DUMMY_EXPENSES = [
   },
   {
     id: "e4",
-    title: "New Desk (Wooden)",
+    title: "New Desk",
     amount: 450,
     date: new Date(2021, 5, 12),
+  },
+  {
+    id: "e5",
+    title: "MOT & Servicing",
+    amount: 265.32,
+    date: new Date(2021, 9, 2),
+  },
+  {
+    id: "e6",
+    title: "Holiday Deposit",
+    amount: 600,
+    date: new Date(2021, 11, 10),
   },
 ];
 
@@ -41,7 +53,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="wrapper">
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>

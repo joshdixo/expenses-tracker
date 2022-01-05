@@ -2,6 +2,6 @@
     padding: 1rem;
     background-color: #414141;
     margin: 2rem auto;
-    width: 50rem;
-    max-width: 95%;
+    width: fill;
+    max-width: 50rem;
 }
